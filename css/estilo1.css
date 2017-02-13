@@ -101,7 +101,7 @@ width: 80px;
 height: 80px;
 }
 nav div{
-position:absolute;
+position:fixed;
 bottom: 160px;
 left: 150px;
 
@@ -190,6 +190,7 @@ font-size:26px;
 
 aside{
 position:fixed;
+float:left;
 border:3px solid red;
 z-index:4;
 left: 1120px;
