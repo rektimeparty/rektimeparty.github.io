@@ -189,11 +189,11 @@ font-size:26px;
 }
 
 aside{
-position:relative;
+position:fixed;
 border:3px solid red;
 z-index:4;
-left: 1170px;
-bottom: 115px;
+left: 1120px;
+bottom: 185px;
 background-color:#B760DC;
 width: 120px;
 height:260px;
@@ -204,9 +204,10 @@ border-radius: 30px;
 }
 
 aside #links{
-position:relative;
-top: 25px;
-left: -25px;
+position:fixed;
+top: 185px;
+left: 1100px;
+z-index:7;
 }
 
 #lol{
