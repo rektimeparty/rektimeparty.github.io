@@ -110,7 +110,7 @@ height: 80px;
 nav .links{
 position:fixed;
 top:30%;
-left:19%;
+left:19.7%;
 font-family:pressStart;
 color: #FFFF7B;
 font-size:42px;
@@ -204,7 +204,7 @@ box-shadow: -2px 2px 0px 2px #6B1A8E;
 border: 2px solid #6B1A8E;
 border-radius: 30px;
 position:fixed;
-left:73%;
+left:64%;
 top:25%;
 
 }
@@ -212,7 +212,7 @@ top:25%;
 aside .links{
 position:fixed;
 top:28%;
-left:72%;
+left:63.5%;
 margin-right: 20px;
 z-index:7;
 font-family:pressStart;
