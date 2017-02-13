@@ -24,8 +24,6 @@
 }
 
 
-
-
 html{
 height:100%;
 }
@@ -110,7 +108,7 @@ height: 80px;
 nav .links{
 position:relative;
 top:-230px;
-left:60px;
+left:18px;
 font-family:pressStart;
 color: #FFFF7B;
 font-size:42px;
@@ -197,7 +195,7 @@ aside{
 border:3px solid red;
 z-index:4;
 background-color:#B760DC;
-width: 140px;
+width: 170px;
 height:260px;
 padding:20px;
 box-shadow: -2px 2px 0px 2px #6B1A8E;
@@ -211,7 +209,7 @@ top:25%;
 aside .links{
 position:relative;
 top:-230px;
-right:50px;
+right:10px;
 z-index:7;
 font-family:pressStart;
 color: #FFFF7B;
@@ -222,12 +220,14 @@ text-shadow: -1px 0 #6B1A8E, 0 3px #6B1A8E, 1px 0 #6B1A8E, 0 -1px #6B1A8E;
 #lol{
 width: 69px;
 height: 69px;
+margin-left: 20px;
 transition:all 1s;
 }
 
 #poke{
 width: 69px;
 height: 69px;
+margin-left:20px;
 transition:all 1s;
 }
 
@@ -245,7 +245,7 @@ height: 80px;
 #otros{
 font-family:pressStart;
 font-size: 14px;
-margin-left: -15px;
+margin-left:20px;
 transition: all 1s;
 display:block;
 text-align:center;
@@ -254,5 +254,4 @@ color:#fdff79;
 
 li:hover #otros{
 font-size:16px;
-margin-left:-28px;
 }
