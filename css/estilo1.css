@@ -62,9 +62,9 @@ transition: all 1.5s;
 nav {
 position:fixed;
 top:25%;
-left:14%;
+left:11.5%;
 background-color:#B760DC;
-width: 120px;
+width: 140px;
 height:260px;
 padding:20px;
 box-shadow: 2px 2px 0px 2px #6B1A8E;
@@ -108,9 +108,9 @@ height: 80px;
 }
 
 nav .links{
-position:fixed;
-top:30%;
-left:19.7%;
+position:relative;
+top:-230px;
+left:60px;
 font-family:pressStart;
 color: #FFFF7B;
 font-size:42px;
@@ -197,7 +197,7 @@ aside{
 border:3px solid red;
 z-index:4;
 background-color:#B760DC;
-width: 120px;
+width: 140px;
 height:260px;
 padding:20px;
 box-shadow: -2px 2px 0px 2px #6B1A8E;
@@ -206,14 +206,12 @@ border-radius: 30px;
 position:fixed;
 left:64%;
 top:25%;
-
 }
 
 aside .links{
-position:fixed;
-top:28%;
-left:63.5%;
-margin-right: 20px;
+position:relative;
+top:-230px;
+right:50px;
 z-index:7;
 font-family:pressStart;
 color: #FFFF7B;
