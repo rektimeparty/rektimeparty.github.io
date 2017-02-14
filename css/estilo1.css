@@ -89,7 +89,6 @@ z-index:22;
 }
 
 
-
 #twitter{
 width:85%;
 height:85%;
@@ -232,14 +231,13 @@ top:25%;
 aside p{
 display:block;
 position:fixed;
-top: 20%;
+top: 22%;
 right:0.3%;
 width: 4.5%;
-height:40%;
-max-height: 400px;
+height:51%;
 z-index:12;
-}
 
+}
 
 
 #lol{
@@ -269,4 +267,5 @@ li:hover #poke{
 width:60%;
 height:60%;
 }
+
 
