@@ -85,6 +85,8 @@ top: 25%;
 left:0.3%;
 width: 4.5%;
 height:40%;
+z-index:11;
+max-height: 400px;
 }
 
 
@@ -234,6 +236,8 @@ top: 20%;
 right:0.3%;
 width: 4.5%;
 height:40%;
+z-index:11;
+max-height: 400px;
 }
 
 
