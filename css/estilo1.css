@@ -31,9 +31,9 @@ width:100%;
 
 BODY{
 background:
--webkit-radial-gradient(circle, rgba(229,132,244,0.8) 7%, rgba(231,246,133,0.8) 77%,rgba(229,132,244,0.8) 15%) no-repeat,
+-webkit-radial-gradient(circle, rgba(229,132,244,0.8) 7%, rgba(231,246,133,0.8) 77%,rgba(229,132,244,0.8) 15%) fixed,no-repeat,
 url("../imgs/pattern.jpg") repeat;
-margin:0px;
+margin:0;
 height: 100%;
 }
 header{
@@ -134,6 +134,7 @@ text-shadow: -1px 0 #6B1A8E, 0 3px #6B1A8E, 1px 0 #6B1A8E, 0 -1px #6B1A8E;
 z-index:9;
 }
 
+
 section{
 top:-200px;
 background-color: #FFB8CE;
@@ -141,7 +142,7 @@ position:relative;
 margin-left:auto;
 margin-right:auto;
 width: 900px;
-height: 100%;
+height: 120%;
 border-right:4px dotted #ea0d51;
 border-left:4px dotted #ea0d51;
 z-index: 1;
@@ -158,9 +159,10 @@ top: 250px;
 left: 50px;
 width:785px;
 min-height:400px;
-height:55%;
+height:auto;
 padding: 15px;
 margin-bottom:40px;
+
 }
 
 #contenido div:nth-child(2n+1){
@@ -263,14 +265,12 @@ text-align:center;
 z-index:9;
 }
 
+.marcador{
+color: #FF5681;
+}
+
 #marciano{
 width:20px;
 height:20px;
 
 }
-
-
-.marcador{
-color: #FF5681;
-}
-
