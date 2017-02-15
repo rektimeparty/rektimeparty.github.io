@@ -143,8 +143,8 @@ margin-left:auto;
 margin-right:auto;
 width: 900px;
 height: 120%;
-border-right:4px dotted #ea0d51;
-border-left:4px dotted #ea0d51;
+border-right:6px solid #ea0d51;
+border-left:6px solid #ea0d51;
 z-index: 1;
 }
 
