@@ -1,0 +1,270 @@
+@font-face {
+    font-family: PressStart;
+    src: url(../fonts/PressStart.ttf);
+}
+@font-face {
+   font-family: Bahiana;
+    src: url(../fonts/Bahiana.ttf);
+}
+@font-face {
+   font-family: CabinSketchBold;
+    src: url(../fonts/CabinSketchBold.ttf);
+}
+@font-face {
+   font-family: CabinSketchRegular;
+    src: url(../fonts/CabinSketchRegular.ttf);
+}
+@font-face {
+   font-family: Neucha;
+    src: url(../fonts/Neucha.ttf);
+}
+@font-face {
+   font-family: Gloria;
+    src: url(../fonts/GloriaHallelujah.ttf);
+}
+
+li{
+list-style-type:none;
+position:relative;
+left:-38px;
+top:-15px;
+}
+li a{
+text-decoration:none;
+color:#000;
+font-size:54px;
+display:block;
+transition:all 0.5s;
+}
+
+li a:hover{
+color:#B150FF;
+}
+
+html{
+height:100%;
+width:100%;
+}
+
+header{
+position:absolute;
+width:45%;
+height:17%;
+background-color:#FFFE89;
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+z-index:5;
+}
+
+BODY{
+background:
+-webkit-radial-gradient(circle, rgba(229,132,244,0.8) 7%, rgba(231,246,133,0.8) 77%,rgba(229,132,244,0.8) 15%) fixed,no-repeat,
+url("../imgs/pattern.jpg") repeat;
+margin:0;
+height: 100%;
+}
+section{
+
+position:absolute;
+width:75%;
+left:11%;
+height:auto;
+min-height:150%;
+max-height:100%;
+
+/* ESTILO */
+
+background-color: #FFC6EF;
+border-left:10px solid #CE9FFF;
+border-right:10px solid #CE9FFF;
+z-index:2;
+box-shadow:2px 0px 0px 10px #750D6E;
+}
+
+#torneosrealizados{
+border:3px solid red;
+margin-top:10%;
+width:40%;
+margin-left:50%;
+margin-right:2%;
+height:auto;
+float:left;
+position:absolute;
+top:5%;
+
+background-color: #EDA1FF;
+border: 3px solid #FBFD85;
+box-shadow:0px 0px 0px 3px #fff;
+border-radius: 30px 30px 0px 0px;
+padding-top:0px;
+font-family:Arial;
+font-size:14px;
+}
+#torneosrealizados h1{
+background-color:#FBFD85;
+background-image: url(../sprites/miss.png), url(../sprites/miss.png);
+background-position: left center, right center;
+background-repeat:no-repeat;
+
+margin-top:-3px;
+border:2px solid #FBFD85;
+border-radius: 30px 30px 0px 0px;
+padding:7px;
+text-align:center;
+font-family:Gloria;
+font-size:30px;	
+}
+
+#realizados{
+border: 3px dotted #FBFD85;
+margin:7px;
+padding:5px;
+}
+#cuadro{
+width: 80%;
+height:  250px;
+border: 2px solid #FBFD85;
+display:block;
+background-color:#fff;
+background-image: url(../imgs/torneo0.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+filter:saturate(5);
+margin-left:auto;
+margin-right:auto;
+animation-name: torneo1;
+animation-duration: 20s;
+animation-iteration-count: infinite;
+}
+
+@keyframes torneo1 {
+0% {background-image: url(../imgs/torneo0.jpg);}
+19% {background-image: url(../imgs/torneo0.jpg);}
+20% {background-image: url(../imgs/torneo1.png);}
+39% {background-image: url(../imgs/torneo1.png);}
+40% {background-image: url(../imgs/torneo2.png);}
+59% {background-image: url(../imgs/torneo2.png);}
+60% {background-image: url(../imgs/torneo3.png);}
+79% {background-image: url(../imgs/torneo3.png);}
+80% {background-image: url(../imgs/torneo4.png);}
+99% {background-image: url(../imgs/torneo4.png);}
+}
+
+#torneosatm{
+border:3px solid red;
+width:40%;
+margin-left:5%;
+margin-right:2%;
+position:relative;
+left:45%;
+height:auto;
+position:absolute;
+top:70%;
+
+}
+
+#infogeneral{
+
+position:aboslute;
+border:3px solid red;
+margin-top:13%;
+width:40%;
+margin-left:2%;
+margin-right:2%;
+margin-bottom:2%;
+height:auto;
+
+/*ESTILO*/
+background-color: #FBFD85;
+border: 3px solid #EDA1FF;
+box-shadow:0px 0px 0px 3px #fff;
+border-radius: 30px 30px 0px 0px;
+padding-top:0px;
+font-family:Arial;
+font-size:14px;
+}
+
+#infogeneral h1:nth-child(1){
+background-color:#EDA1FF;
+background-image: url(../sprites/ez.png), url(../sprites/ez.png);
+background-position: left center, right center;
+background-repeat:no-repeat;
+
+margin-top:-3px;
+border:2px solid #EDA1FF;
+border-radius: 30px 30px 0px 0px;
+padding:7px;
+text-align:center;
+font-family:Gloria;
+font-size:30px;
+}
+#infogeneral span{
+color:#EB198D;
+font-family: Gloria;
+font-weight: bold;
+}
+
+#infogeneral h1:nth-child(2){
+font-family: Neucha;
+text-align:right;	
+color:#EB198D;
+}
+
+#infogeneral #rules{
+text-align:center;
+display:block;
+font-family: Neucha;
+color: #8039F2;
+font-size: 20px;
+}
+
+#info{
+border: 3px dotted #EDA1FF;
+margin:7px;
+padding:5px;
+}
+
+
+nav{
+width:5%;
+float:left;
+position:absolute;
+top:50%;
+left:0;
+height:10%;
+/*ESTILO */
+
+background:
+-webkit-linear-gradient(left,rgba(255,255,255,0), rgba(255,255,255,0),rgba(255,255,255,0.6));
+background-color: #FFFA92;
+border-radius: 0% 60% 60% 0%;
+border:3px solid #750D6E;
+}
+
+aside{
+width:14%;
+float:right;
+position:fixed;
+top:0%;
+right:0;
+height:100%;
+/* ESTILO */
+background-color:#431556;
+z-index:1;
+
+}
+
+footer{
+width:100%;
+position:fixed;
+bottom:0px;
+height:25px;
+max-height:5%;
+background-color:#000;
+color:#FFB8CE;
+text-align:center;
+z-index:9;
+}
