@@ -1,3 +1,4 @@
+
 @font-face {
     font-family: PressStart;
     src: url(../fonts/PressStart.ttf);
@@ -21,6 +22,24 @@
 @font-face {
    font-family: Gloria;
     src: url(../fonts/GloriaHallelujah.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+	z-index:10;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+	margin-top:30px;
+	margin-bottom:30px;
+	
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
 }
 
 li{
@@ -56,6 +75,17 @@ right:0;
 margin-left:auto;
 margin-right:auto;
 z-index:5;
+border-radius: 60px;
+padding: 3px;
+
+}
+
+header h1{
+display:block;
+color: #FFC6EF;
+margin-top:35px;
+text-align:center;
+font-family:PressStart;
 }
 
 BODY{
@@ -65,14 +95,16 @@ url("../imgs/pattern.jpg") repeat;
 margin:0;
 height: 100%;
 }
+
+
 section{
 
 position:absolute;
 width:75%;
 left:11%;
-height:auto;
+height:200%;
 min-height:150%;
-max-height:100%;
+
 
 /* ESTILO */
 
@@ -84,16 +116,14 @@ box-shadow:2px 0px 0px 10px #750D6E;
 }
 
 #torneosrealizados{
-border:3px solid red;
 margin-top:10%;
 width:40%;
 margin-left:50%;
 margin-right:2%;
-height:auto;
+height:35%;
 float:left;
 position:absolute;
 top:5%;
-
 background-color: #EDA1FF;
 border: 3px solid #FBFD85;
 box-shadow:0px 0px 0px 3px #fff;
@@ -117,11 +147,16 @@ font-family:Gloria;
 font-size:30px;	
 }
 
-#realizados{
-border: 3px dotted #FBFD85;
-margin:7px;
+.realizados{
+border: 4px dotted #FBFD85;
+margin:auto;
 padding:5px;
+overflow-y: scroll;
+overflow-x: hidden;
+width:90%;
+height:75%;
 }
+
 #cuadro{
 width: 80%;
 height:  250px;
@@ -132,13 +167,18 @@ background-image: url(../imgs/torneo0.jpg);
 background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
-filter:saturate(5);
 margin-left:auto;
 margin-right:auto;
 animation-name: torneo1;
 animation-duration: 20s;
 animation-iteration-count: infinite;
 }
+
+#realizados  a{
+color:#000;
+}
+
+
 
 @keyframes torneo1 {
 0% {background-image: url(../imgs/torneo0.jpg);}
@@ -160,11 +200,86 @@ margin-left:5%;
 margin-right:2%;
 position:relative;
 left:45%;
-height:auto;
+height:35%;
 position:absolute;
-top:70%;
+top:50%;
 
+background-color: #EDA1FF;
+border: 3px solid #FBFD85;
+box-shadow:0px 0px 0px 3px #fff;
+border-radius: 30px 30px 0px 0px;
+padding-top:0px;
+font-family:Arial;
+font-size:14px;
 }
+
+#torneosatm a{
+color:#000;
+}
+
+#torneosatm h1{
+background-color:#FBFD85;
+background-image: url(../sprites/riven.png), url(../sprites/riven.png);
+background-position: left center, right center;
+background-repeat:no-repeat;
+
+margin-top:-3px;
+border:2px solid #FBFD85;
+border-radius: 30px 30px 0px 0px;
+padding:7px;
+text-align:center;
+font-family:Gloria;
+font-size:30px;	
+}
+
+#cuadro2{
+width: 80%;
+height:  250px;
+border: 2px solid #FBFD85;
+display:block;
+background-color:#fff;
+background-image: url(../imgs/partidas.png);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+margin-left:auto;
+margin-right:auto;
+animation-name: torneo2;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes torneo2{
+0% {background-image: url(../imgs/partidas.png);}
+49% {background-image: url(../imgs/partidas.png);}
+50% {background-image: url(../imgs/partidas2.png);}
+100% {background-image: url(../imgs/partidas2.png);}
+}
+
+#cuadro3{
+width: 80%;
+height:  250px;
+border: 2px solid #FBFD85;
+display:block;
+background-color:#fff;
+background-image: url(../imgs/cartel.png);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+margin-left:auto;
+margin-right:auto;
+animation-name: torneo3;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+
+@keyframes torneo3{
+0% {background-image: url(../imgs/cartel.png);}
+49% {background-image: url(../imgs/cartel.png);}
+50% {background-image: url(../imgs/cartel2.png);}
+100% {background-image: url(../imgs/cartel2.png);}
+}
+
 
 #infogeneral{
 
@@ -267,4 +382,17 @@ background-color:#000;
 color:#FFB8CE;
 text-align:center;
 z-index:9;
+}
+
+aside h1{
+display:block;
+position:fixed;
+margin:auto;
+right:-150px;
+top:300px;
+transform: rotate(90deg);
+font-size: 45px;
+font-family: PressStart;
+color: #EDA1FF;
+
 }
