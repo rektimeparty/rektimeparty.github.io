@@ -238,7 +238,7 @@ height:  250px;
 border: 2px solid #FBFD85;
 display:block;
 background-color:#fff;
-background-image: url(../imgs/partidas.png);
+background-image: url(../imgs/PARTIDAS.png);
 background-size: cover;
 background-repeat:no-repeat;
 background-position:center;
@@ -250,10 +250,10 @@ animation-iteration-count: infinite;
 }
 
 @keyframes torneo2{
-0% {background-image: url(../imgs/partidas.png);}
-49% {background-image: url(../imgs/partidas.png);}
-50% {background-image: url(../imgs/partidas2.png);}
-100% {background-image: url(../imgs/partidas2.png);}
+0% {background-image: url(../imgs/PARTIDAS.png);}
+49% {background-image: url(../imgs/PARTIDAS.png);}
+50% {background-image: url(../imgs/PARTIDAS2.png);}
+100% {background-image: url(../imgs/PARTIDAS2.png);}
 }
 
 #cuadro3{
