@@ -134,7 +134,7 @@ font-size:14px;
 }
 #torneosrealizados h1{
 background-color:#FBFD85;
-background-image: url(../sprites/miss.png), url(../sprites/miss.png);
+background-image: url(../SPRITES/miss.png), url(../SPRITES/miss.png);
 background-position: left center, right center;
 background-repeat:no-repeat;
 
@@ -219,7 +219,7 @@ color:#000;
 
 #torneosatm h1{
 background-color:#FBFD85;
-background-image: url(../sprites/riven.png), url(../sprites/riven.png);
+background-image: url(../SPRITES/riven.png), url(../SPRITES/riven.png);
 background-position: left center, right center;
 background-repeat:no-repeat;
 
@@ -304,7 +304,7 @@ font-size:14px;
 
 #infogeneral h1:nth-child(1){
 background-color:#EDA1FF;
-background-image: url(../sprites/ez.png), url(../sprites/ez.png);
+background-image: url(../SPRITES/ez.png), url(../SPRITES/ez.png);
 background-position: left center, right center;
 background-repeat:no-repeat;
 
