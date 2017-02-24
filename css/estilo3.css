@@ -1,0 +1,473 @@
+@font-face {
+    font-family: PressStart;
+    src: url(../fonts/PressStart.ttf);
+}
+@font-face {
+   font-family: Bahiana;
+    src: url(../fonts/Bahiana.ttf);
+}
+@font-face {
+   font-family: CabinSketchBold;
+    src: url(../fonts/CabinSketchBold.ttf);
+}
+@font-face {
+   font-family: CabinSketchRegular;
+    src: url(../fonts/CabinSketchRegular.ttf);
+}
+@font-face {
+   font-family: Neucha;
+    src: url(../fonts/Neucha.ttf);
+}
+@font-face {
+   font-family: Gloria;
+    src: url(../fonts/GloriaHallelujah.ttf);
+}
+
+::-webkit-scrollbar {
+    width: 12px;
+	z-index:10;
+}
+ 
+::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3); 
+    border-radius: 10px;
+	margin-top:30px;
+	margin-bottom:30px;
+	
+}
+ 
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5); 
+}
+
+li{
+list-style-type:none;
+position:fixed;
+left:0.5vh;
+top:49vh;
+}
+
+li a{
+text-decoration:none;
+color:#000;
+font-size:5vw;
+display:block;
+transition:all 0.5s;
+}
+
+li a:hover{
+color:#FD7070;
+} 
+
+html{
+height:100%;
+width:100%;
+}
+
+BODY{
+background:
+-webkit-radial-gradient(circle, rgba(229,132,244,0.8) 7%, rgba(231,246,133,0.8) 77%,rgba(229,132,244,0.8) 15%) fixed,no-repeat,
+url("../imgs/pattern.jpg") repeat;
+margin:0;
+height: 100%;
+}
+
+header{
+position:absolute;
+width:45%;
+height:17%;
+background-color:#FFFE89;
+left:0;
+right:0;
+margin-left:auto;
+margin-right:auto;
+z-index:5;
+border-radius: 60vh;
+padding: 0.3vh;
+
+}
+
+
+nav{
+width:5vw;
+float:left;
+position:fixed;
+top:50%;
+left:0;
+height:10%;
+/*ESTILO */
+
+background:
+-webkit-linear-gradient(left,rgba(255,255,255,0), rgba(255,255,255,0),rgba(255,255,255,0.6));
+background-color: #FFFA92;
+border-radius: 0% 60% 60% 0%;
+border:3px solid #FD7070;
+}
+
+aside{
+width:14%;
+float:right;
+position:fixed;
+top:0%;
+right:0;
+height:100%;
+/* ESTILO */
+background-color:#FD7070;
+z-index:1;
+
+}
+
+
+header h1{
+display:block;
+color: #FD7070;
+margin-top:2.5vmax;
+text-align:center;
+font-family:PressStart;
+font-size:3vmax;
+}
+
+
+footer{
+width:100%;
+position:fixed;
+bottom:0px;
+height:5vh;
+max-height:5%;
+background-color:#000;
+color:#FFB8CE;
+text-align:center;
+z-index:9;
+font-size:3vh;
+}
+
+
+aside h1{
+display:block;
+margin-top:13vmin;
+transform: rotate(90deg);
+font-size: 7.5vh;
+font-family: PressStart;
+color: #EDA1FF;
+
+}
+
+section{
+
+position:absolute;
+width:75%;
+left:11%;
+height:200%;
+min-height:200%;
+
+
+/* ESTILO */
+
+background-color: #FFC78E;
+border-left:0.5vw solid #FFE98E;
+border-right:0.5vw solid #FFE98E;
+z-index:2;
+box-shadow:0vw 0vw 0vw 1vw #FF8F8E;
+}
+
+#info{
+width:33%;
+height:25%;
+position:absolute;
+float:right;
+top:10%;
+left:5%;
+
+/*estilo*/
+background-color: #FFF7B7;
+border:0.5vh solid #FF5A3D;
+border-radius:3vh 3vh 0vh 0vh;
+box-shadow: 0vh 2vh 0vh 0vh #FF5A3D;
+}
+
+#info h1{
+background-color:#FF5A3D;
+background-image: url(../SPRITES/marowak.png), url(../SPRITES/marowak.png);
+background-size: 7vh, 7vh;
+background-position: left center, right center;
+background-repeat:no-repeat;
+
+
+border:0.5vh solid #FF5A3D;
+border-radius:3vh 3vh 0vh 0vh;
+padding:1vh;
+margin-top:-1vh;
+font-size: 4vh;
+text-align:center;
+font-family:Gloria;
+	
+}
+
+#realizados{
+width:27%;
+height:25%;
+border:3px solid red;
+position:absolute;
+float:right;
+top:10%;
+right:32%;
+
+background-color: #FFF7B7;
+border:0.5vh solid #FFBC46;
+border-radius:3vh 3vh 0vh 0vh;
+box-shadow: 0vh 2vh 0vh 0vh #FFBC46;
+}
+
+#realizados h1{
+text-align:center;
+font-family:Gloria;
+background-color:#FFBC46;
+background-image: url(../SPRITES/Gladio.png), url(../SPRITES/Gladio.png);
+background-size: 7vh, 7vh;
+background-position: left center, right center;
+background-repeat:no-repeat;
+border:0.5vh solid #FFBC46;
+border-radius:3vh 3vh 0vh 0vh;
+padding:1.5vw 2.5vw 1.5vw 2.5vw;
+margin-top:-1vh;
+font-size: 2.3vh;	
+}
+
+#atm{
+width:25%;
+height:25%;
+border:3px solid red;
+position:absolute;
+float:right;
+top:10%;
+right:5%;
+
+background-color: #FFF7B7;
+border:0.5vh solid #FFBC46;
+border-radius:3vh 3vh 0vh 0vh;
+box-shadow: 0vh 2vh 0vh 0vh #FFBC46;
+}
+
+#atm h1{
+text-align:center;
+font-family:Gloria;
+background-color:#FFBC46;
+background-image: url(../SPRITES/lillie.png), url(../SPRITES/lillie.png);
+background-size: 7vh, 7vh;
+background-position: left center, right center;
+background-repeat:no-repeat;
+border:0.5vh solid #FFBC46;
+border-radius:3vh 3vh 0vh 0vh;
+padding:1.5vw 2.5vw 1.5vw 2.5vw;
+margin-top:-1vh;
+font-size: 2.3vh;	
+
+}
+
+#challange{
+width:89.5%;
+height:40%;
+position:absolute;
+float:right;
+top:40%;
+left:5%;
+
+background-color: #FFF7B7;
+border:0.5vh solid #B780FF;
+border-radius:3vh 3vh 0vh 0vh;
+box-shadow: 0vh 2vh 0vh 0vh #B780FF
+}
+
+#challange h1{
+text-align:center;
+font-family:Gloria;
+background-color:#B780FF;
+background-image: url(../SPRITES/pokemon.png), url(../SPRITES/pokemon.png), url(../SPRITES/pokemon.png), url(../SPRITES/pokemon.png);
+background-size: 7vh, 7vh, 7vh, 7vh;
+background-position: 2vw 4vh, 10vw 4vh, 53vw 4vh, 60vw 4vh;
+background-repeat:no-repeat;
+border:0.5vh solid #B780FF;
+border-radius:3vh 3vh 0vh 0vh;
+padding:1.5vw 2.5vw 1.5vw 2.5vw;
+margin-top:-1vh;
+font-size: 4vh;	
+
+}
+
+.cajita{
+height:65%;
+width:90%;
+border: 0.5vh dotted #FF5A3D;
+margin:auto;
+overflow:auto;
+padding:0.5vw;
+font-family:arial;
+font-size:3vh;
+}
+
+.cajita2{
+height:65%;
+width:90%;
+border: 0.5vh dotted #FFBC46;
+margin:auto;
+overflow:auto;
+padding:0.5vw;
+font-family:arial;
+font-size:3vh;
+}
+
+#fotos1{
+margin-top:0.2vh;
+width:98%;
+height:87%;
+border:0.2vw solid #FF5A3D;
+background-image: url(../imgs/poke3.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+#fotos2{
+margin-top:0.2vh;
+width:98%;
+height:87%;
+border:0.2vw solid #FF5A3D;
+background-image: url(../imgs/poke0.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+}
+
+#fotos3{
+margin-top:0.2vh;
+width:98%;
+height:87%;
+border:0.2vw solid #FF5A3D;
+background-image: url(../imgs/poke1.jpg);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+animation-name: garchomp;
+animation-duration: 6s;
+animation-iteration-count: infinite;
+}
+
+@keyframes garchomp{
+0% {background-image: url(../imgs/poke1.jpg);}
+49% {background-image: url(../imgs/poke1.jpg);}
+50% {background-image: url(../imgs/poke2.jpg);}
+99% {background-image: url(../imgs/poke2.jpg);}
+}
+
+#chalinfo{
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width:70%;
+height:30%;
+margin-top:-5vh;
+background-color: #FEFFDF;
+border: 0.5vh dotted #B780FF;
+padding:1vh;
+overflow:auto;
+}
+
+#chalinfo h2{
+font-family:Neucha;
+}
+#chalinfo span{
+font-family:Neucha;
+font-weight:bold;
+color:#E55B8E;
+}
+
+#chalinfo p{
+font-family:Arial;
+}
+#jugadores{
+margin-left: 20vh;	
+}
+
+.player{
+width:15%;
+height:50%;	
+border:0.2vw solid #B780FF;
+margin-top:1vh;
+float:left;
+margin-left:5vh;	
+}
+.player:hover #fondo{
+visibility:hidden;
+
+}
+.player:hover #texto{
+visibility:visible;
+
+}
+
+#fondo{
+width:100%;
+height:99%;
+overflow:hidden;
+
+}
+
+
+#fondo img{
+width:100%;
+height:100%;
+z-index:3;
+}
+
+#texto{
+width:11%;
+height:40%;	
+position:absolute;
+bottom:1vh;
+padding: 1vh;
+font-family:Arial;
+font-size:2vh;
+text-align:center;
+font-weight:bold;
+visibility:hidden;
+
+}
+
+.frambu{
+font-family:Gloria;
+color:#FF5784;
+
+}
+
+.aagie{
+font-family:Gloria;
+color:#FF8306;
+
+}
+
+.manec{
+font-family:Gloria;
+color:#C5BC57;
+
+}
+
+.selia{
+font-family:Gloria;
+color:#57C56F;
+
+}
+
+.tier{
+font-family:Neucha;
+text-decoration:underline;
+color:#FF4A1C;
+font-size:3vh;
+}
+
+
+.random{
+font-family:Bahiana;
+font-size:3vh;
+
+}
