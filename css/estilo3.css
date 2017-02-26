@@ -303,7 +303,12 @@ margin:auto;
 overflow:auto;
 padding:0.5vw;
 font-family:arial;
-font-size:3vh;
+font-size:2vh;
+}
+
+.cajita span{
+color: #FF630F;
+font-family:Gloria;
 }
 
 .cajita2{
