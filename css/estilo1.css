@@ -274,3 +274,14 @@ width:20px;
 height:20px;
 
 }
+
+#contact{
+text-decoration:none;
+color:#FFFF7B;
+}
+
+#contact:hover{
+color:#FFBF83;
+}
+
+
