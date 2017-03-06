@@ -1,0 +1,132 @@
+@font-face {
+    font-family: PressStart;
+    src: url(../fonts/PressStart.ttf);
+}
+@font-face {
+   font-family: Bahiana;
+    src: url(../fonts/Bahiana.ttf);
+}
+@font-face {
+   font-family: CabinSketchBold;
+    src: url(../fonts/CabinSketchBold.ttf);
+}
+@font-face {
+   font-family: CabinSketchRegular;
+    src: url(../fonts/CabinSketchRegular.ttf);
+}
+@font-face {
+   font-family: Neucha;
+    src: url(../fonts/Neucha.ttf);
+}
+@font-face {
+   font-family: Gloria;
+    src: url(../fonts/GloriaHallelujah.ttf);
+}
+html{
+height:100%;
+width:100%;
+}
+
+BODY{
+background:
+-webkit-radial-gradient(circle, rgba(229,132,244,0.8) 7%, rgba(231,246,133,0.8) 77%,rgba(229,132,244,0.8) 15%) fixed,no-repeat,
+url("../imgs/pattern.jpg") repeat;
+margin:0;
+height: 150%;
+}
+nav{
+width:5vw;
+float:left;
+position:fixed;
+top:50%;
+left:0;
+height:10%;
+/*ESTILO */
+
+background:
+-webkit-linear-gradient(left,rgba(255,255,255,0), rgba(255,255,255,0),rgba(255,255,255,0.6));
+background-color: #FFFA92;
+border-radius: 0% 60% 60% 0%;
+border:3px solid #E5357F;
+}
+
+li a{
+text-decoration:none;
+color:#000;
+font-size:5vw;
+display:block;
+transition:all 0.5s;
+}
+
+li a:hover{
+color:#E5357F;
+} 
+
+li{
+list-style-type:none;
+position:fixed;
+left:0.5vh;
+top:49vh;
+}
+
+
+section{
+top:-300px;
+background-color: #FFB8CE;
+position:relative;
+margin-left:auto;
+margin-right:auto;
+width: 900px;
+height: 180%;
+border-right:6px solid #ea0d51;
+border-left:6px solid #ea0d51;
+z-index: 1;
+}
+
+footer{
+width:100%;
+position:fixed;
+bottom:0px;
+height:25px;
+background-color:#000;
+color:#FFB8CE;
+text-align:center;
+z-index:9;
+}
+
+#tablero{
+position:relative;
+top:17%;
+left:3%;
+}
+
+.noticia{
+position:relative;
+top:17%;
+left:3%;
+}
+#tablero h1{
+text-align:center;
+}
+h1{
+font-family:PressStart;
+text-transform: uppercase;
+color: #feff83;
+font-size:17px;
+text-shadow: -1px 0 #6B1A8E, 0 3px #6B1A8E, 1px 0 #6B1A8E, 0 -1px #6B1A8E;
+}
+#n2 h1{
+text-align:right;
+margin-right:40px;
+}
+
+p{
+font-family:Neucha;
+width: 95%;
+}
+
+span{
+font-family:Gloria;
+FONT-WEIGHT:Bold;
+color: #E5357F;
+}
