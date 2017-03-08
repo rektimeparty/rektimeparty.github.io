@@ -24,6 +24,11 @@
     src: url(../fonts/GloriaHallelujah.ttf);
 }
 
+
+section{
+height: 1000px;
+}
+
 @media (min-width: 1225px){
 
 html{
@@ -144,11 +149,11 @@ position:relative;
 margin-left:auto;
 margin-right:auto;
 width: 900px;
-height: 120%;
+min-height:120%;
 border-right:6px solid #ea0d51;
 border-left:6px solid #ea0d51;
-z-index: 1;
-}
+z-index: 1; 
+} 
 
 #contenido{
 position:absolute;
@@ -470,11 +475,10 @@ position:relative;
 margin-left:auto;
 margin-right:auto;
 width:  430px;
-height: 210%;
 border-right:3px solid #ea0d51;
 border-left:3px solid #ea0d51;
 z-index: 1;
-}
+} 
 
 #contenido{
 position:absolute;
@@ -802,7 +806,6 @@ position:relative;
 margin-left:auto;
 margin-right:auto;
 width:  240px;
-height: 185%;
 border-right:3px solid #ea0d51;
 border-left:3px solid #ea0d51;
 z-index: 1;
