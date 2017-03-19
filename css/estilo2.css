@@ -272,6 +272,32 @@ animation-duration: 10s;
 animation-iteration-count: infinite;
 }
 
+#cuadro4{
+width: 80%;
+height:  250px;
+border: 2px solid #FBFD85;
+display:block;
+background-color:#fff;
+background-image: url(../imgs/logo.png);
+background-size: cover;
+background-repeat:no-repeat;
+background-position:center;
+margin-left:auto;
+margin-right:auto;
+animation-name: torneo4;
+animation-duration: 10s;
+animation-iteration-count: infinite;
+}
+@keyframes torneo4{
+0% {background-image: url(../imgs/logo2.png);}
+49% {background-image: url(../imgs/logo2.png);}
+50% {background-image: url(../imgs/info1.png);}
+74% {background-image: url(../imgs/info1.png);}
+75% {background-image: url(../imgs/info2.png);}
+100% {background-image: url(../imgs/info2.png);}
+}
+
+
 @keyframes torneo3{
 0% {background-image: url(../imgs/cartel.png);}
 49% {background-image: url(../imgs/cartel.png);}
@@ -443,7 +469,7 @@ font-family:Neucha;
 background-color: #C7A0FF;
 }
 .fecha{
-background-color:#8BFCFF;
+background-color:#FFDE87;
 }
 
 .equis{
@@ -454,12 +480,12 @@ background-color:#C9C9C9;
 position:absolute;
 left:24vw;
 width: 8vw;
-height:6vh;
-background-color:#8BFCFF;
+height:auto;
+background-color:#FFDE87;
 border:0.2vw solid  #C7A0FF;
 border-radius: 20vw;
 visibility:hidden;
-
+padding:10px;
 }
 
 #explicacion p{
